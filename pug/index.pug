@@ -1,0 +1,107 @@
+doctype html
+html
+ head
+  title= "test work"
+  meta(charset="utf-8")
+  link(rel="stylesheet" href="css/main.css")
+  meta(name="viewport" content="width=device-width, initial-scale=1")
+  script(src="js/jquery-3.1.1.min.js" type="text/javascript")
+  script(src="js/app.js" type="text/javascript")
+ body
+  header
+   div.header-top.wrapper
+    div.name-date
+     h2= "Здравствуйте, Александр Криничанский"
+     h3= "30 октября 2012"
+    div.input-top
+     input.text(type="text" placeholder= "Что вы ищете")
+     input.text(type="text" placeholder= "На сайте")
+     input.button(type="button" value="Найти")
+   div.header-logo.wrapper
+    div.img
+     img(src="img/logo.png")
+    div.text
+     p.
+      Мы покоряем не только небеса,
+      но и сердца пассажиров.<br />
+      В этом — заслуга каждого из нас!
+    div.plane
+     img(src="img/787.png")
+   div.nav.wrapper
+    nav
+     li#toggle
+       a(href="#")= "Меню"
+     ul#toggle-drop
+      li
+       a(href="#")= "Главная"
+      li
+       a(href="#")= "о компании"
+      li
+       a(href="#")= "Сотруднику"
+      li
+       a(href="#")= "документы"
+      li
+       a(href="#")= "обучение"
+      li
+       a(href="#")= "медиа"
+  div.wrapper.main
+   div.bar
+    ul
+     li
+      a.border(href="#")= "Волонтерам"
+     li
+      a(href="#")= "Спорт"
+     li
+      a(href="#")= "Время Трансаэро"
+     li
+      a(href="#")= "Инновации"
+     li
+      a(href="#")= "Ценности компании"
+     li
+      a(href="#")= "Отчеты"
+     li
+      a(href="#")= "Дайджест"
+     li
+      a(href="#")= "Техподдержка"
+   div.news
+    h1
+     | ПРЯМОЙ ЭФИР:  
+     span Встреча гендиректора Ольги Плешаковой с персоналом
+    div.photo
+     img(src="img/photo.png")
+     div.video
+      a.left(href="#")= "Перезапустить трансляцию"
+      a.right(href="#")= "Настройки качества"
+   div.personal-area
+    div.info
+     h1= "Личный кабинет"
+     div.profile
+      div.profile-photo
+       img(src="img/man.png")
+      a(href="#")= "Личный кабинет (1)"
+      div.task
+       h1= "Задачи на сегодня"
+       div.doc
+        h3= "Документы"
+        span.sum-1
+         | 
+         a.sum-doc-1(href="#")="15"
+         |/
+         a.sum-doc-2(href="#")="17"
+       div.bid
+        h3= "Заявки"
+        span.sum-2
+         | 
+         a.sum-doc-1(href="#")="3"
+         |/
+         a.sum-doc-2(href="#")="4"
+    div.interview
+     h1= "Опрос"
+     div.input
+      h2= "Посещаете ли вы какие-либо соцсети?"
+      input(type="radio") 
+      span= "Да"
+      br
+      input(type="radio")  
+      span= "Нет"
+  

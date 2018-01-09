@@ -1,0 +1,418 @@
+@font-face {
+  font-family: 'Verdana-Bold';
+  src: url("../fonts/Verdana-Bold.eot");
+  src: url("../fonts/Verdana-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Verdana-Bold.woff") format("woff"), url("../fonts/Verdana-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Verdana';
+  src: url("../fonts/Verdana.eot");
+  src: url("../fonts/Verdana.eot?#iefix") format("embedded-opentype"), url("../fonts/Verdana.woff") format("woff"), url("../fonts/Verdana.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+header .header-top {
+  background: #c5c5c5;
+  display: block;
+}
+
+header .header-top .name-date {
+  color: #fff;
+  display: inline-block;
+}
+
+@media (max-width: 970px) {
+  header .header-top .name-date {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+
+header .header-top .name-date h2 {
+  font-family: Verdana;
+  display: inline-block;
+  margin: 13px 24px 13px 13px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+header .header-top .name-date h3 {
+  font-family: Verdana-Bold;
+  display: inline-block;
+  font-size: 13px;
+  margin: 13px 0;
+}
+
+header .header-top .input-top {
+  display: inline-block;
+  margin-left: 160px;
+}
+
+@media (max-width: 970px) {
+  header .header-top .input-top {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+
+header .header-top .input-top .text {
+  width: 140px;
+  box-sizing: border-box;
+  padding: 4px;
+  font-size: 11px;
+  font-family: Verdana;
+  height: 20px;
+}
+
+header .header-top .input-top .button {
+  background: #9b9b9b;
+  border: 1px solid #444443;
+  color: #20201e;
+}
+
+header .header-logo img {
+  max-width: 100%;
+}
+
+header .header-logo .img {
+  max-width: 100%;
+  float: left;
+  margin: 30px 0 30px 15px;
+}
+
+@media (max-width: 970px) {
+  header .header-logo .img {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    float: none;
+    margin: 30px 0 30px 0;
+  }
+}
+
+header .header-logo .text {
+  display: inline-block;
+  width: 34%;
+  margin-left: 27%;
+}
+
+@media (max-width: 970px) {
+  header .header-logo .text {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+  }
+}
+
+header .header-logo .text p {
+  font-size: 18px;
+  font-family: Verdana;
+  color: #003ca2;
+  margin: 30px 0;
+}
+
+@media (max-width: 970px) {
+  header .header-logo .text p {
+    text-align: center;
+    padding: 0 10px;
+  }
+}
+
+header .header-logo .plane img {
+  max-width: 100%;
+}
+
+header .nav {
+  margin-top: 3px;
+}
+
+header .nav ul {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+@media (max-width: 970px) {
+  header .nav ul {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) and (min-width: 970px) {
+  header .nav ul {
+    display: block !important;
+  }
+}
+
+header .nav #toggle {
+  display: none;
+}
+
+@media (max-width: 970px) {
+  header .nav #toggle {
+    display: block;
+    width: 100%;
+  }
+}
+
+header .nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 -4px 0 0;
+  background: #134094;
+  border-bottom: 7px solid #fff;
+}
+
+@media (max-width: 970px) {
+  header .nav li {
+    border-bottom: none;
+    display: block;
+    width: 100%;
+  }
+}
+
+header .nav li:hover {
+  border-bottom: 7px solid #db0029;
+}
+
+header .nav li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Verdana-Bold;
+  font-size: 13px;
+  text-align: center;
+  width: 160px;
+  display: block;
+  padding: 20px 0;
+}
+
+@media (max-width: 970px) {
+  header .nav li a {
+    width: 100%;
+  }
+}
+
+.main {
+  padding-top: 23px;
+  display: table;
+}
+
+.main .bar {
+  float: left;
+}
+
+@media (max-width: 970px) {
+  .main .bar {
+    display: none;
+  }
+}
+
+.main .bar ul {
+  padding: 0;
+  margin: 0;
+}
+
+.main .bar ul .border {
+  border-top: 1px solid #d3d3d3;
+}
+
+.main .bar ul li {
+  list-style: none;
+}
+
+.main .bar ul li a {
+  font-size: 13px;
+  font-family: Verdana;
+  color: #134094;
+  text-decoration: none;
+  padding: 16px 40px 17px 10px;
+  display: block;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.main .news {
+  display: inline-block;
+  width: 54%;
+  margin: -5px 25px 0 40px;
+}
+
+@media (max-width: 970px) {
+  .main .news {
+    width: 100%;
+    margin: 0;
+    padding: 0 10px;
+    display: block;
+    box-sizing: border-box;
+  }
+}
+
+.main .news h1 {
+  margin: 0;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Verdana;
+  color: #c20016;
+  margin-bottom: 27px;
+}
+
+.main .news h1 span {
+  color: #134094;
+}
+
+.main .news .photo img {
+  width: 100%;
+  height: 326px;
+}
+
+.main .news .photo .video {
+  width: 100%;
+  height: 17px;
+  background: #9b9b9b;
+  margin-top: -4px;
+}
+
+.main .news .photo .video a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: Verdana;
+}
+
+.main .news .photo .video .left {
+  float: left;
+  padding-left: 9px;
+}
+
+.main .news .photo .video .right {
+  float: right;
+  padding-right: 9px;
+}
+
+.main .personal-area {
+  float: right;
+  width: 20%;
+}
+
+@media (max-width: 970px) {
+  .main .personal-area {
+    display: none;
+  }
+}
+
+.main .personal-area .info {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.main .personal-area .info h1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  color: #134094;
+  font-family: Verdana;
+}
+
+.main .personal-area .info .profile .profile-photo {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.main .personal-area .info .profile a {
+  margin: 12px 0 8px 0;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: unset;
+  color: black;
+  font-family: Verdana;
+  display: block;
+}
+
+.main .personal-area .info .profile .task {
+  margin-top: 16px;
+}
+
+.main .personal-area .info .profile .task h1 {
+  margin: 20px 0 9px 0;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  color: #134094;
+  font-family: Verdana;
+}
+
+.main .personal-area .info .profile .task .doc, .main .personal-area .info .profile .task .bid {
+  padding: 0 10px;
+  font-family: Verdana;
+}
+
+.main .personal-area .info .profile .task .doc .sum-1, .main .personal-area .info .profile .task .doc .sum-2, .main .personal-area .info .profile .task .bid .sum-1, .main .personal-area .info .profile .task .bid .sum-2 {
+  float: right;
+}
+
+.main .personal-area .info .profile .task .doc .sum-doc-1, .main .personal-area .info .profile .task .bid .sum-doc-1 {
+  display: inline-block;
+  color: red;
+  margin: 0;
+}
+
+.main .personal-area .info .profile .task .doc .sum-doc-2, .main .personal-area .info .profile .task .bid .sum-doc-2 {
+  display: inline-block;
+  margin: 0;
+}
+
+.main .personal-area .info .profile .task .doc h3, .main .personal-area .info .profile .task .bid h3 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.main .personal-area .interview h1 {
+  font-size: 18px;
+  color: #c20016;
+  text-transform: uppercase;
+  font-family: Verdana;
+  margin: 13px 0 17px 0;
+}
+
+.main .personal-area .interview .input h2 {
+  font-size: 13px;
+  color: #2a4290;
+  font-family: Verdana;
+  margin: 0 0 10px 0;
+  padding-right: 37px;
+}
+
+.main .personal-area .interview .input input {
+  margin: 0 0 5px 0;
+}
+
+.main .personal-area .interview .input span {
+  font-style: italic;
+  font-family: Verdana;
+  font-size: 11px;
+}
